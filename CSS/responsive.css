@@ -1,0 +1,186 @@
+@media screen and (max-width:1400px){
+  /* containers place */
+.bodyContainer , .JunCon1  {
+  height: auto;
+}
+/*Juncon2 contactImg */
+.contactImg {
+  height: 60px;
+  width: 60px;
+}
+ /* footer */  
+ footer {
+  margin-top: 35.5%;
+}
+}
+
+@media screen and (max-width:1200px){
+     /* Nav lists */
+     nav {
+      width: 40%;
+    }
+  /* containers place */
+.JunCon2{
+  margin-bottom: 30px;
+}
+.JunCon2 , .contactImgContainer {
+  height: 400px;
+  display: flex;
+  flex-direction: column;  
+}
+hr {
+  width: 95%;
+  border: 1px solid gray;
+}
+
+.contactImgContainer {
+align-items: center;
+}
+/* Juncon1 */
+.juncon1>p{
+  text-align:left !important; /*alinmadi*/
+}
+  /* footer */  
+  footer {
+    margin-top: 23.5%;
+  }
+}
+
+
+@media screen and (max-width:992px){
+    /* Nav lists */
+    nav {
+      width: 50%;
+    }
+  /* JunCon2 Juncon1 and containers place */
+  .bodyContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .contactImgContainer {
+    flex-direction: row; 
+    width: 60%; 
+    align-self: center;
+  }
+  .JunCon2{
+    width: 65% !important;
+    margin-top: 20px;
+    height: 220px !important;
+  }
+
+  /* JunCon1 Elements place */
+  .prphoto{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 10px;
+  }
+  .hed2 {
+    font-size: 25px;
+  }
+  .JunCon1 > p {
+    margin-top: 5px !important;
+    text-align: center;
+  }
+  /* Portfolio Juncon1 elements */
+  .portfolioCon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .smallD{
+    width: 90%;
+  }
+}
+
+
+@media screen and (max-width:768px){
+    /* nav */
+    .hedh1 {
+      font-size: 16px;
+    }
+    header {
+      width:100px;
+      margin-right: auto !important;
+      margin-left: 5px;
+    }
+    header >a {
+      height: 100%;
+      width: 100%;
+      vertical-align: middle !important;
+    }
+    
+
+    /* Nav lists */
+    nav {
+      width: 60%;
+    }
+
+  /* JunCon1 Elements place */
+  .prphoto{
+    width: 220px;
+    height: 220px;
+    margin-bottom: 10px;
+  }
+  .JunCon1{
+    display: flex;
+    flex-direction: column;
+  }
+  /* JunCon2 Elements place */
+  .contactImgContainer {  
+    width:80%;  
+  }
+    /* footer */  
+   footer {
+     margin-top: 27.5%;
+   }
+}
+
+
+@media screen and (max-width:576px){
+ /* nav */
+  .hedh1 {
+    font-size: 16px;
+  }
+  header {
+    width:100px;
+    margin-right: auto !important;
+    margin-left: 5px;
+    display: flex;
+  }
+  header >a {
+    height: 100%;
+    width: 100%;
+    /* vertical-align: middle !important; /*alinmadi*/  
+  } 
+  
+  /* Nav lists */
+  nav {
+    width: 85%;
+  }
+
+ /* JunCon1 Elements place */
+ .prphoto{
+  width: 175px;
+  height: 175px;
+  margin-bottom: 10px;
+}
+.contactImg{
+  padding-bottom: 10px !important;
+  width: 55px;
+  height: 55px;
+} 
+
+/* JunCon2 Elements place */
+.contactImgContainer {
+  width:100%; 
+}
+
+  /* footer */  
+  footer {
+    margin-top: 39%;
+  }
+}
+
