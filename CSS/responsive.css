@@ -98,9 +98,6 @@ align-items: center;
 
 @media screen and (max-width:768px){
     /* nav */
-    .hedh1 {
-      font-size: 16px;
-    }
     header {
       width:100px;
       margin-right: auto !important;
@@ -109,7 +106,10 @@ align-items: center;
     header >a {
       height: 100%;
       width: 100%;
-      vertical-align: middle !important;
+    }
+    .hedh1 {
+      font-size: 23px;
+      padding: 3px;
     }
     
 
@@ -141,10 +141,7 @@ align-items: center;
 
 @media screen and (max-width:576px){
  /* nav */
-  .hedh1 {
-    font-size: 16px;
-  }
-  header {
+header {
     width:100px;
     margin-right: auto !important;
     margin-left: 5px;
@@ -155,6 +152,10 @@ align-items: center;
     width: 100%;
     /* vertical-align: middle !important; /*alinmadi*/  
   } 
+  .hedh1 {
+    font-size: 23px;
+    padding: 3px;
+  }
   
   /* Nav lists */
   nav {
